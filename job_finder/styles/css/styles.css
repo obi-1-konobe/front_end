@@ -1,0 +1,209 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.nav_bg{
+    background: #5bbc2e;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+.nav_btn{
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    background:rgba(0,0,0,0.2);
+    border:none;
+}
+.nav-item{
+    margin: 0 20px;
+}
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{
+    background-color: green;
+    border-color:green;
+}
+.carousel-caption{
+	bottom: 20%;
+}
+.promo_text{
+    font-size: 10px;
+    line-height: 15px;
+    color: #5bbc2e;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.promo_text span{
+    color:#000;
+}
+.services{
+    background:  #f5f5f5;
+    padding: 50px 0;
+}
+.services h3{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#5bbc2e;
+}
+.services_text{
+    padding: 0 20px;
+}
+.the_perfect_inner h5, .great_work h5, .job_board h5{
+    font-size: 18px;
+    font-weight: 800;
+    color:#8d8d8d;
+    text-transform: uppercase;
+}
+.carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid #5bbc2e;
+    background:none;
+}
+.carousel-indicators li.active{
+    background: #5bbc2e;
+}
+.services h3 span{
+    color:#000;
+}
+.services p{
+    font-size: 12px;
+    font-weight: 400;
+    color:#515151;
+}
+.services_item{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.services_item h4{
+    font-size: 14px;
+    font-weight: 600;
+    color:#5bbc2e;
+    text-transform: uppercase;
+}
+.services_item i{
+    color: #5bbc2e;
+    font-size: 50px;
+}
+.the_perfect_inner h5 span, .great_work h5 span, .job_board h5 span{
+    color:#5bbc2e;
+}
+.the_perfect_inner p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#767575;
+}
+.great_work{
+    background:#f5f5f5;
+}
+.great_work_inner ul{
+    padding: 0 0 0 15px;
+}
+.great_work_inner li{
+    font-size: 14px;
+    font-weight: 400;
+    color:#767575;
+    line-height: 25px;
+    list-style: none;
+}
+.great_work_inner li::before{
+    content:"";
+    background: url(../../img/arrow.png) no-repeat 0 50%;
+    /* padding-top: 5px; */
+    /* background: red; */
+    min-width: 25px;
+    min-height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.job_board{
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.job_board_item .card{
+    min-height: 100%;
+}
+.job_board_item h6{
+    font-size: 12px;
+    font-weight: 800;
+    color:#4b4b4b;
+    text-transform: uppercase;
+}
+.job_board_item a{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.job_board_item{
+    padding: 15px;
+}
+.job_board_title{
+    margin-bottom: 35px;
+}
+.footer{
+    padding: 25px;
+    background:#141414;
+}
+.footer p{
+    font-size: 12px;
+    font-weight: 800;
+    color:#4b4b4b;
+    margin: 0;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 576px){
+    .promo_text{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .services h3{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+	.promo_text{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .services h3{
+        font-size: 30px;
+    }
+    .services_text{
+        padding: 0 200px;
+    }
+    .the_perfect_inner h5, .great_work h5, .job_board h5{
+    font-size: 30px;
+    }
+}
+@media screen and (min-width: 1200px) {
+	.promo_text{
+        font-size: 48px;
+        line-height: 53px;
+    }
+    .services{
+        padding: 100px 0;
+    }
+    .services h3{
+        font-size: 48px;
+    }
+    .job_board_title{
+    margin-bottom: 85px;
+    }
+    .job_board{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    }
+    .the_perfect_inner{
+        padding-top: 40px;
+    }
+    .great_work_inner{
+        padding-top: 40px;
+    }
+}
