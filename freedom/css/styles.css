@@ -1,0 +1,269 @@
+body{
+	font-family: arial, sans-serif;
+	background: #fff;
+	color:  #4b3f55;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	background: #775ba3;
+	padding-bottom: 15px;
+}
+.header_box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header_left{
+	min-width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu{
+	padding-top: 20px;
+}
+.menu_item{
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 20px;
+}
+.user{
+	font-size: 30px;
+	color: #fff;
+}
+.slider img{
+	width: 100%;
+	height: auto;
+}
+.content{
+	text-align: center;
+	padding: 107px 0;
+}
+.content_title{
+	font-size: 40px;
+	color: #7e63a7;
+	margin-bottom: 37px;
+	text-align: center;
+}
+.content_text{
+	font-size: 23px;
+	line-height: 36px;
+	text-align: center;
+}
+.adventages{
+	background: #fcfcfc;
+	border-top:#91c5a9 solid 1px;
+	border-bottom: #91c5a9 solid 1px;
+	padding: 83px 0;
+}
+.adventages_items_inner{
+	display: flex;
+	justify-content: space-between;
+}
+.adventages_items{
+	padding: 18px 0;
+}
+.adventages_items::before{
+	content: '';
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	height: 4px;
+	background: url(../img/bg-sm.jpg);
+	transform: translateY(50px);
+	position: relative;
+	z-index: 1;
+}
+.adv_item{
+	width: 30%;
+	text-align: center;
+	font-size: 13px;
+	line-height: 18px;
+}
+.adv_icon{
+	width: 100px;
+	height: 100px;
+	border:solid 1px #4b3f55;
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 100px;
+	color:#fcfcfc;
+	font-size: 50px;
+	text-shadow:
+   -1px -1px 0 #4b3f55,  
+    1px -1px 0 #4b3f55,
+    -1px 1px 0 #4b3f55,
+     1px 1px 0 #4b3f55;
+     margin-bottom: 70px;
+     background: #fcfcfc;
+     position: relative;
+     z-index: 2;
+}
+.profile{
+	padding: 100px 0;
+}
+.profile_items{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.prf_item{
+	width: 358px;
+}
+.prf_img{
+	border-bottom: 2px solid #91c5a9 ;
+}
+.prf_name{
+	padding: 5px;
+	border-bottom: 2px solid #91c5a9 ;
+	font-size: 15px;
+	line-height: 20px;
+	color: #91c5a9 ;
+	margin-bottom: 10px;
+}
+.prf_inner{
+	min-height: 115px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.prf_text{
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+.links{
+	display: flex;
+}
+.prf_icon{
+	width: 50%;
+	border:none;
+	height: 50px;
+}
+.prf_fb{
+	background: url(../img/ic-fb.png) no-repeat 50% 50%;
+	background-color:#3b5998;
+}
+.prf_g{
+	background: url(../img/ic-gplus.png) no-repeat 50% 50%;
+	background-color:#d14333;
+}
+.prf_drib{
+	background: url(../img/ic-drib.png) no-repeat 50% 50%;
+	background-color:#ea4c88;
+}
+.prf_tw{
+	background: url(../img/ic-tw.png) no-repeat 50% 50%;
+	background-color:#00aced;
+}
+.prf_yt{
+	background: url(../img/ic-youtube.png) no-repeat 50% 50%;
+	background-color:#c70c0c;
+}
+.portfolio h2{
+	text-transform: uppercase;
+}
+.portfolio_img{
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 1200px;
+	margin-bottom: 70px;
+}
+.portfolio_img a{
+	width: 25%;
+	height: auto;
+	margin-bottom: 1px;
+}
+.prtf_img{
+	width: 100%;
+	height: auto;
+}
+.footer_top{
+	background: #91c5a9;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.footer_top_inner{
+	display: flex;
+	justify-content: space-between;
+}
+.footer_top_inner div{
+	max-width: 25%;
+	height: auto;
+}
+.footer_top_title{
+	font-size: 23px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footer_top_text{
+	font-size: 14px;
+	color: #fff;
+}
+.snippet p{
+	text-align: left;
+	line-height: 19px;
+}
+.footer_top_btn{
+	min-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.footer_top_btn input{
+	font-size: 14px;
+	color: #fff;
+	background: #419568;
+	border:none;
+	margin-right: 18px;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+}
+.contact{
+	padding: 0 30px;
+}
+.contact_item{
+	min-width: 100%;
+	height: auto;
+}
+.contact_item div{
+	min-width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.contact_item label{
+	color: #fff;
+	font-size: 14px;
+}
+.contact_item input{
+	width: 173px;
+	line-height: 19px;
+	margin-bottom: 5px;
+}
+.contact_item textarea{
+	width: 173px;
+	height: 100px;
+	line-height: 19px;
+}
+.tweeter p{
+	text-align: center;
+	line-height: 19px;
+}
+.footer{
+	background: #54865d;
+}
+.footer_inner{
+	min-height: 70px;
+	display: flex;
+	align-items: center;
+}
+.footer p{
+	font-size: 14px;
+	color: #fff;
+}
